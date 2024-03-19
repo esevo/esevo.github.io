@@ -1,1 +1,9 @@
 /* base style for example html files */
+* {
+    font-family: Asap;
+}
+
+h1 {
+ /* font-family: Asap; */
+ /* font-family: Asap, courier; using google font */
+}
