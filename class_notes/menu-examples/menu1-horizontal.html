@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Menu Example</title>
+    <!-- Styles listed here are for done for demos and simplicity and should not be used for correctness
+			Graded styles require:
+			- external stylesheets
+			- hex colors, unless transparency is needed then rgba
+			- consistency 
+		-->
+    <style>
+      * { /* removes all default margin and padding */
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+      }
+      ul {
+        list-style-type: none; /* removes bullets */
+        padding: 10px;
+      }
+      li {
+        display: inline; /* change from block to inline which allows horizontal */
+        padding: 10px;
+      }
+      li a {
+        color: #fff;
+        text-decoration: none; /* removes underline */
+      }
+      a:hover {
+        border-bottom: 1px dotted #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <!-- 
+          Here is how you would link to external site
+          <li><a href="https://www.google.com">Home</a></li> 
+        -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="../page2.html">About</a></li>
+        <li><a href="#">Services</a></li> <!-- # is placeholder -->
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
