@@ -1,0 +1,166 @@
+/* reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#wrapper {
+  background-color: #fbf3f3;
+  max-width: 1024px;
+  border: 1px solid #777;
+  /* this centers content, yes this is really weird */
+  margin: 0 auto;
+}
+
+/* header styles */
+menu {
+  list-style-type: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: column;
+}
+.menu-toggle {
+  cursor: pointer;
+  font-size: 30px;
+}
+.nav-menu {
+  display: none;
+}
+.nav-menu.active {
+  display: block;
+}
+.nav-menu ul {
+  list-style-type: none;
+  margin-top: 8px;
+}
+.nav-menu li {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-menu li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+main {
+  margin: 10px;
+}
+
+footer {
+  border-top: 1px solid #777;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+small {
+  display: inline-block;
+}
+
+/* This css is used for window size of 768 and wider.
+Note: how it is listed at bottom of css */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+  .nav-menu menu {
+    display: flex;
+  }
+  .nav-menu li {
+    margin-right: 20px;
+  }
+}
+
+/* font info */
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
