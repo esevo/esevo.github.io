@@ -14,7 +14,7 @@ Requirements:
 5) All html is valid
 6) All css is valid 
 7) All css and js must be in external files and in their own folders
-7) You must use these at least 1 time in your index.html page
+8) You must use these at least 1 time in your index.html page
   a. html
   b. body
   c. a
@@ -35,10 +35,34 @@ Requirements:
   r. google font
 
 
-8) You must use at least 20 css properties.
-9) Correct formatting
-10) Consistent coding
-11) Follow coding standards
-12) Your site must be responsive
-13) Font in rem
+9) You must use at least 20 css properties.
+10) Correct formatting
+11) Consistent coding
+12) Follow coding standards
+13) Your site must be responsive
+14) Font in rem
+
+
+## Standards
+1) 2 spaces for html, css files
+2) px can be used for padding/margin, if thoughtful and can articulate why when I ask you about :)
+3) px for img is ok but there are better ways
+4) rem for font
+5) mobile first!
+6) responsive pages
+7) consistent formatting
+8) no caps on files, folders, elements, classes, ids
+9) valid css and html
+10) Accessibility
+11) Images appropriate sized
+
+
+## Accessibility
+1) consider contrast - make sure very different colors, contrast checkers very helpful
+2) h1 required
+3) alt tags for images
+4) links should have an indicator
+5) imgs should show proper cursor
+6) no super small text
+7) tabs should work
 
