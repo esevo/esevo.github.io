@@ -41,6 +41,7 @@ Requirements:
 12) Follow coding standards
 13) Your site must be responsive
 14) Font in rem
+15) Externally linked css and js, not inline, not in html
 
 
 ## Standards
@@ -55,6 +56,7 @@ Requirements:
 9) valid css and html
 10) Accessibility
 11) Images appropriate sized
+12) Externally linked js and css
 
 
 ## Accessibility
