@@ -1,6 +1,4 @@
 # Your final project
-** NOT FINISHED **
-
 Expectation: You will have a fully valid functioning website.
 
 Requirements:
@@ -48,7 +46,7 @@ Requirements:
 1) 2 spaces for html, css files
 2) px can be used for padding/margin, if thoughtful and can articulate why when I ask you about :)
 3) px for img is ok but there are better ways
-4) rem for font
+4) rem (em, %) for font if different be ready to justify
 5) mobile first!
 6) responsive pages
 7) consistent formatting
